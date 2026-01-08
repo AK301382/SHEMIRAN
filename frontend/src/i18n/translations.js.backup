@@ -1,0 +1,425 @@
+export const translations = {
+  fa: {
+    // Header
+    home: "خانه",
+    about: "درباره ما",
+    products: "محصولات",
+    blog: "وبلاگ",
+    faq: "سوالات متداول",
+    contact: "تماس با ما",
+    
+    // Hero
+    heroTitle: "شرکت صنایع غذایی شمیران",
+    heroSubtitle: "تولید کننده باکیفیت ترین محصولات غذایی در افغانستان",
+    heroButton: "محصولات ما",
+    
+    // About
+    aboutTitle: "درباره ما",
+    aboutDescription: "شرکت صنایع غذایی هرات منش اکرمی با افتخار تولید کننده محصولات غذایی باکیفیت با برند شمیران است. ما با استفاده از بهترین مواد اولیه و تکنولوژی روز، محصولاتی سالم و خوشمزه را به دست مصرف کنندگان می‌رسانیم.",
+    ourMission: "ماموریت ما",
+    missionText: "تولید محصولات غذایی باکیفیت و سالم برای خانواده‌های افغان",
+    ourVision: "چشم‌انداز ما",
+    visionText: "پیشرو در صنعت غذایی افغانستان با استانداردهای بین‌المللی",
+    ourValues: "ارزش‌های ما",
+    valuesText: "کیفیت، سلامت، اعتماد و رضایت مشتری",
+    
+    // Products
+    productsTitle: "محصولات ما",
+    productsSubtitle: "تنوعی از محصولات خوشمزه و باکیفیت",
+    shemiranPillow: "بالشتی شمیران",
+    shemiranDesc: "بالشتی‌های خوشمزه با طعم‌های مختلف",
+    cakes: "کیک‌ها",
+    cakesDesc: "انواع کیک‌های تازه و خوشمزه",
+    biscuits: "بیسکویت‌ها",
+    biscuitsDesc: "بیسکویت‌های ترد و لذیذ",
+    viewMore: "مشاهده بیشتر",
+    
+    // Product of the Month
+    productOfTheMonth: "محصول برتر ما",
+    featuredProduct: "شکو بالشتی 30 گرمی کاکائویی",
+    featuredProductDesc: "غلات صبحانه خوشمزه و مقوی با طعم کاکائو",
+    moreProducts: "محصولات بیشتر",
+    
+    // FAQ
+    faqTitle: "سوالات متداول",
+    faqSubtitle: "پاسخ به سوالات رایج شما",
+    faq1Q: "محصولات شمیران از چه موادی تهیه می‌شوند؟",
+    faq1A: "تمام محصولات ما با استفاده از مرغوب‌ترین مواد اولیه و طبق استانداردهای بهداشتی تولید می‌شوند.",
+    faq2Q: "آیا محصولات شما دارای مجوز بهداشتی هستند؟",
+    faq2A: "بله، تمام محصولات ما دارای مجوزهای لازم از وزارت صحت عامه افغانستان می‌باشند.",
+    faq3Q: "چگونه می‌توانم محصولات شما را خریداری کنم؟",
+    faq3A: "محصولات ما در فروشگاه‌های سراسر افغانستان موجود است. برای اطلاعات بیشتر با ما تماس بگیرید.",
+    faq4Q: "آیا امکان سفارش عمده وجود دارد؟",
+    faq4A: "بله، برای سفارشات عمده لطفاً با بخش فروش ما تماس بگیرید.",
+    
+    // Blog
+    blogTitle: "وبلاگ و مقالات",
+    blogSubtitle: "آخرین اخبار و مقالات تغذیه",
+    readMore: "ادامه مطلب",
+    backToBlog: "بازگشت به وبلاگ",
+    
+    // Blog Post Titles & Excerpts
+    blog1Title: "رازهای طلایی شکو بالشتی شمیران: چرا کودکان عاشق آن هستند؟",
+    blog1Excerpt: "کشف کنید چرا شکو بالشتی کاکائویی شمیران محبوب‌ترین انتخاب کودکان و والدین است. ارزش غذایی، کیفیت تولید و طعم بی‌نظیر.",
+    
+    blog2Title: "از تولید تا سفره شما: داستان شیرینی‌های شمیران",
+    blog2Excerpt: "سفری از کارخانه تا سفره شما. بشناسید چگونه محصولات شمیران با بالاترین کیفیت به دست شما می‌رسند.",
+    
+    blog3Title: "3 ایده خلاقانه برای استفاده از محصولات شمیران در جشن‌ها",
+    blog3Excerpt: "از شکو بالشتی با شیر کاکائو تا میزهای بیسکویت رنگارنگ - ایده‌های خلاقانه برای جشن‌های به‌یادماندنی.",
+    
+    // Blog Post 1: شکو بالشتی
+    blog1Intro: "شکو بالشتی 30 گرمی کاکائویی شمیران نه تنها یک تنقلات ساده، بلکه یک انتخاب هوشمندانه برای والدین و یک لذت بی‌نظیر برای کودکان است. در این مقاله، رازهای محبوبیت این محصول را کشف می‌کنیم.",
+    
+    blog1Section1Title: "چرا کودکان عاشق شکو بالشتی هستند؟",
+    blog1Section1P1: "شکو بالشتی شمیران ترکیبی منحصربفرد از طعم، بافت و سرگرمی است که کودکان را به خود جذب می‌کند:",
+    blog1Section1L1: "طعم کاکائوی غنی و دلپذیر که کودکان عاشق آن هستند",
+    blog1Section1L2: "بافت ترد و سبک که در دهان آب می‌شود",
+    blog1Section1L3: "شکل جذاب بالشتی که خوردن را سرگرم‌کننده می‌کند",
+    blog1Section1L4: "اندازه مناسب 30 گرمی - نه خیلی کم، نه خیلی زیاد",
+    
+    blog1Section2Title: "ارزش غذایی که والدین به دنبالش هستند",
+    blog1Section2P1: "شکو بالشتی شمیران نه تنها خوشمزه است، بلکه ارزش غذایی مناسبی نیز دارد که والدین به آن اعتماد می‌کنند:",
+    blog1Section2BoxTitle: "مواد مغذی در هر بسته 30 گرمی:",
+    blog1Section2B1: "کاکائو با کیفیت: منبع آنتی‌اکسیدان‌های طبیعی",
+    blog1Section2B2: "غلات سالم: تامین‌کننده انرژی پایدار برای کودکان فعال",
+    blog1Section2B3: "ویتامین‌ها و مواد معدنی: حمایت از رشد و تکامل کودکان",
+    blog1Section2B4: "بدون رنگ‌های مصنوعی مضر: سلامت کودک در اولویت",
+    
+    blog1Section3Title: "فرآیند تولید با کیفیت",
+    blog1Section3P1: "شرکت صنایع غذایی شمیران با استفاده از پیشرفته‌ترین تکنولوژی و سختگیرانه‌ترین استانداردهای بهداشتی، شکو بالشتی را تولید می‌کند. از انتخاب مواد اولیه تا بسته‌بندی نهایی، کنترل کیفیت در هر مرحله انجام می‌شود.",
+    blog1Section3P2: "تیم متخصص ما اطمینان می‌دهد که هر بسته شکو بالشتی با همان کیفیت بالا به دست مصرف‌کنندگان برسد.",
+    
+    blog1Section4Title: "چرا والدین باید شکو بالشتی را انتخاب کنند؟",
+    blog1Section4Box1Title: "تنقلات سالم",
+    blog1Section4Box1Text: "جایگزین مناسب برای تنقلات ناسالم. ارزش غذایی متعادل و انرژی مناسب.",
+    blog1Section4Box2Title: "کیفیت تضمین شده",
+    blog1Section4Box2Text: "تولید در کارخانه مجهز با استانداردهای بین‌المللی و مجوزهای بهداشتی معتبر.",
+    blog1Section4Box3Title: "قیمت مناسب",
+    blog1Section4Box3Text: "کیفیت عالی در قیمتی منصفانه. در دسترس تمام خانواده‌ها.",
+    blog1Section4Box4Title: "محصول ملی",
+    blog1Section4Box4Text: "حمایت از صنعت ملی افغانستان. محصول وطن، افتخار وطن.",
+    
+    blog1Conclusion: "انتخاب هوشمندانه والدین آگاه",
+    blog1ConclusionText: "شکو بالشتی شمیران ترکیبی است از طعم، کیفیت و سلامت. انتخابی که هم کودکان از آن لذت می‌برند و هم والدین به آن اعتماد دارند. با انتخاب شکو بالشتی، نه تنها به کودک خود تنقلاتی خوشمزه می‌دهید، بلکه از صنعت ملی کشور خود نیز حمایت می‌کنید.",
+    blog1CTA: "آیا می‌خواهید محصولات شمیران را برای کودکان خود تهیه کنید؟",
+    
+    // Blog Post 2: از تولید تا سفره
+    blog2Intro: "پشت هر بسته از محصولات شمیران، داستانی از تلاش، دقت و عشق به کیفیت نهفته است. در این مقاله، شما را به سفری از کارخانه تولید تا سفره خانه‌های شما دعوت می‌کنیم.",
+    
+    blog2Section1Title: "داستان برند شمیران",
+    blog2Section1P1: "شرکت صنایع غذایی هرات منش اکرمی در سال 1402 در شهر زیبای هرات تأسیس شد. با هدف تولید محصولات غذایی باکیفیت و سالم، برند شمیران به یکی از معتبرترین نام‌ها در صنعت غذایی افغانستان تبدیل شده است.",
+    blog2Section1P2: "نام شمیران نمادی از کیفیت، اعتماد و طعم اصیل است. ما با افتخار می‌گوییم: محصول وطن، افتخار وطن.",
+    blog2Section1Quote: "\"ماموریت ما ساده است: تولید بهترین محصولات غذایی برای خانواده‌های افغان با استانداردهای بین‌المللی.\"",
+    
+    blog2Section2Title: "فرآیند تولید: از مواد اولیه تا محصول نهایی",
+    blog2Section2P1: "تولید محصولات شمیران یک فرآیند دقیق و چندمرحله‌ای است که در هر مرحله، کیفیت در اولویت قرار دارد:",
+    blog2Section2Box1Title: "انتخاب مواد اولیه",
+    blog2Section2Box1Text: "تنها بهترین و مرغوب‌ترین مواد اولیه انتخاب می‌شوند. تیم کنترل کیفیت ما هر محموله را قبل از ورود به خط تولید بازرسی می‌کند.",
+    blog2Section2Box2Title: "تکنولوژی پیشرفته",
+    blog2Section2Box2Text: "کارخانه شمیران مجهز به مدرن‌ترین دستگاه‌های تولید است که استانداردهای بهداشتی را رعایت می‌کنند.",
+    blog2Section2P2: "از مرحله مخلوط کردن مواد اولیه تا پخت، خنک‌سازی و بسته‌بندی، همه مراحل تحت نظارت دقیق کارشناسان مجرب انجام می‌شود.",
+    
+    blog2Section3Title: "محصولات متنوع شمیران",
+    blog2Section3Product1Title: "شکو بالشتی کاکائویی",
+    blog2Section3Product1Text: "محبوب‌ترین محصول ما! غلات صبحانه خوشمزه با طعم کاکائوی غنی. مناسب برای صبحانه یا میان‌وعده.",
+    blog2Section3Product2Title: "کیک‌های متنوع (موزی، نارگیلی، پرتقالی)",
+    blog2Section3Product2Text: "کیک‌های نرم و تازه با طعم‌های مختلف. ایده‌آل برای صبحانه، میان‌وعده یا مهمانی‌ها.",
+    blog2Section3Product3Title: "بیسکویت‌های نشو و شیران",
+    blog2Section3Product3Text: "بیسکویت‌های ترد و خوشمزه با کیفیت عالی. همراه ایده‌آل برای چای و قهوه.",
+    
+    blog2Section4Title: "نکات نگهداری و تاریخ انقضا",
+    blog2Section4Intro: "برای حفظ کیفیت و تازگی محصولات شمیران، به نکات زیر توجه کنید:",
+    blog2Section4L1: "محصولات را در محیطی خنک و خشک نگهداری کنید، دور از نور مستقیم خورشید",
+    blog2Section4L2: "پس از باز کردن بسته، محتویات را در ظرف دربسته نگهداری کنید",
+    blog2Section4L3: "حتماً تاریخ انقضای روی بسته را چک کنید",
+    blog2Section4L4: "از قرار دادن محصولات در معرض رطوبت خودداری کنید",
+    blog2Section4L5: "تاریخ تولید و انقضا به وضوح روی هر بسته درج شده است",
+    
+    blog2Section5Title: "ایده‌های خلاقانه برای صبحانه و میان‌وعده",
+    blog2Section5Intro: "محصولات شمیران را می‌توانید به روش‌های خلاقانه در برنامه غذایی خود بگنجانید:",
+    blog2Section5Idea1Title: "صبحانه انرژی‌زا",
+    blog2Section5Idea1Text: "شکو بالشتی + شیر گرم + میوه تازه = صبحانه کامل و مقوی",
+    blog2Section5Idea2Title: "میان‌وعده مدرسه",
+    blog2Section5Idea2Text: "بیسکویت نشو + آب میوه طبیعی = میان‌وعده سالم برای کودکان",
+    blog2Section5Idea3Title: "همراه چای عصرگاهی",
+    blog2Section5Idea3Text: "کیک موزی یا نارگیلی + چای داغ = لحظات دلنشین عصرگاهی",
+    blog2Section5Idea4Title: "میان‌وعده سبک شب",
+    blog2Section5Idea4Text: "بیسکویت شیران + شیر گرم = میان‌وعده سبک قبل از خواب",
+    
+    blog2Conclusion: "از ما تا سفره شما، با عشق",
+    blog2ConclusionText: "هر محصول شمیران با دقت، عشق و تعهد به کیفیت تولید می‌شود. وقتی محصولات شمیران را انتخاب می‌کنید، نه تنها طعم خوب را انتخاب کرده‌اید، بلکه به کیفیت، سلامت و حمایت از صنعت ملی رأی داده‌اید.",
+    blog2CTA: "آیا می‌خواهید بخشی از خانواده شمیران باشید؟",
+    
+    // Blog Post 3: ایده‌های خلاق
+    blog3Intro: "آیا به دنبال ایده‌های خلاقانه برای جشن تولد، مهمانی یا جشن خانوادگی هستید؟ محصولات شمیران می‌توانند ستاره جشن شما باشند! در این مقاله، 3 ایده خلاقانه و آزمایش شده را با شما به اشتراک می‌گذاریم.",
+    
+    blog3Idea1Title: "ایده 1: شکو بالشتی + شیر کاکائو (محبوب کافه‌ها!)",
+    blog3Idea1Subtitle: "این ترکیب طلایی نه تنها در خانه، بلکه در کافه‌ها هم محبوب است!",
+    blog3Idea1P1: "شکو بالشتی شمیران با شیر کاکائو داغ یا سرد، یک نوشیدنی لذیذ و مقوی می‌سازد که میهمانان شما عاشقش می‌شوند. این ایده در بسیاری از کافه‌های هرات و کابل نیز استفاده می‌شود.",
+    
+    blog3Idea1RecipeTitle: "دستور تهیه (برای هر نفر):",
+    blog3Idea1Recipe1: "یک بسته شکو بالشتی شمیران (30 گرم) را در یک فنجان بریزید",
+    blog3Idea1Recipe2: "200 میلی‌لیتر شیر داغ یا سرد اضافه کنید",
+    blog3Idea1Recipe3: "به مدت 2-3 دقیقه هم بزنید تا شکو بالشتی‌ها نرم شوند",
+    blog3Idea1Recipe4: "می‌توانید کمی عسل یا شکلات تزئینی اضافه کنید",
+    
+    blog3Idea1CafeTip: "بسیاری از کافه‌ها این نوشیدنی را با نام \"شکو اسپشیال\" یا \"کاکائو کرانچی\" سرو می‌کنند و محبوبیت زیادی دارد.",
+    
+    blog3Idea1Variant1Title: "نسخه جشن تولد",
+    blog3Idea1Variant1Text: "روی شیر کاکائو خامه بزنید و با شکو بالشتی خرد شده و اسپری شکلات تزئین کنید.",
+    blog3Idea1Variant2Title: "نسخه تابستانی",
+    blog3Idea1Variant2Text: "شیر کاکائو سرد + یخ + شکو بالشتی = یک شیک خنک و خوشمزه",
+    
+    blog3Idea2Title: "ایده 2: میز بیسکویت رنگارنگ (Dessert Table)",
+    blog3Idea2P1: "یک میز زیبا با بیسکویت‌های نشو و شیران، کیک‌های شمیران و تزئینات رنگی بچینید. این ایده برای جشن تولد کودکان یا مهمانی‌های خانوادگی عالی است.",
+    
+    blog3Idea2SetupTitle: "نحوه چیدن میز:",
+    blog3Idea2Setup1: "بیسکویت‌ها را در ظروف شیشه‌ای زیبا بچینید",
+    blog3Idea2Setup2: "کیک‌های موزی و نارگیلی را برش بزنید و در بشقاب‌های رنگی قرار دهید",
+    blog3Idea2Setup3: "با بادکنک‌ها و پرچم‌های رنگی تزئین کنید",
+    blog3Idea2Setup4: "چند نوشیدنی مانند آب میوه و شیر را کنار میز بگذارید",
+    
+    blog3Idea2P2: "میهمانان می‌توانند خودشان از میز انتخاب کنند و لذت ببرند!",
+    
+    blog3Idea3Title: "ایده 3: کیک‌های شمیران به عنوان دسر خلاقانه",
+    blog3Idea3P1: "کیک‌های شمیران نه تنها به تنهایی خوشمزه هستند، بلکه می‌توانید با آن‌ها دسرهای خلاقانه بسازید:",
+    
+    blog3Idea3Cake1Title: "کیک پرتقالی تریفل",
+    blog3Idea3Cake1Text: "کیک پرتقالی را خرد کنید، با خامه، میوه‌های تازه و ژله لایه‌لایه کنید.",
+    blog3Idea3Cake2Title: "کیک موزی با آیس کریم",
+    blog3Idea3Cake2Text: "کیک موزی را گرم کنید و با یک گلوله آیس کریم وانیلی سرو کنید.",
+    blog3Idea3Cake3Title: "کیک نارگیلی کاپ کیک",
+    blog3Idea3Cake3Text: "کیک نارگیلی را در فرم‌های کوچک بچینید و با گل‌های خوراکی تزئین کنید.",
+    
+    blog3Idea3DecorTitle: "ایده تزئین:",
+    blog3Idea3DecorText: "کیک‌ها را روی کیک استندهای چوبی یا فلزی قرار دهید و با میوه‌های تازه، نعناع و پودر قند تزئین کنید.",
+    
+    blog3BonusTitle: "نکات بونوس برای جشن موفق:",
+    blog3Bonus1: "همیشه مقداری بیشتر تهیه کنید - محصولات شمیران خیلی سریع تمام می‌شوند!",
+    blog3Bonus2: "ترکیب محصولات مختلف (بیسکویت + کیک + شکو بالشتی) تنوع بیشتری ایجاد می‌کند",
+    blog3Bonus3: "عکس‌های زیبا از میز دسر بگیرید - می‌توانید در اینستاگرام شمیران تگ کنید!",
+    
+    blog3Conclusion: "جشنی به‌یادماندنی با محصولات شمیران",
+    blog3ConclusionText: "با این ایده‌های ساده و خلاقانه، می‌توانید جشنی فراموش‌نشدنی برای عزیزانتان بسازید. محصولات شمیران نه تنها خوشمزه هستند، بلکه باعث خوشحالی و لبخند میهمانانتان می‌شوند.",
+    blog3CTA: "آیا آماده‌اید جشن بعدی خود را با محصولات شمیران خاص کنید؟",    // Contact
+    contactTitle: "تماس با ما",
+    contactSubtitle: "ما منتظر شنیدن نظرات شما هستیم",
+    phone: "شماره تماس",
+    whatsapp: "واتساپ",
+    address: "آدرس",
+    addressText: "افغانستان هرات جاده بهزاد کوچه خراسان",
+    followUs: "مسیر یابی",
+    sendMessage: "ارسال پیام",
+    yourName: "نام شما",
+    yourEmail: "ایمیل شما",
+    yourMessage: "پیام شما",
+    send: "ارسال",
+    
+    // Footer
+    quickLinks: "دسترسی سریع",
+    socialMedia: "شبکه‌های اجتماعی",
+    allRightsReserved: "تمامی حقوق محفوظ است",
+    companyIntro: "معرفی شرکت",
+    companyDescription: "شرکت صنایع غذایی هرات منش اکرمی یک شرکت برتر در زمینه تولید و توزیع محصولات غذایی با کیفیت عالی است. این شرکت در سال 1402 تاسیس‌ شد و در شهر شیرین هرات باستان فعالیت خود را شروع نمود. و به عنوان یکی از شرکت های تولیدی محصولات غذایی در افغانستان شناخته میشود",
+    productOfNation: "محصول وطن افتخار وطن",
+    contactUs: "ارتباط با ما",
+    heratAddress: "هرات جاده بهزاد کوچه خراسان",
+    workingHours: "ساعات کاری",
+    saturdayToThursday: "شنبه - پنجشنبه",
+    friday: "جمعه",
+    closed: "تعطیل",
+    workingHoursTime: "۰۸:۰۰ الی ۱۸:۰۰",
+    copyright: "© 2025 شرکت صنایع غذایی شمیران - تمامی حقوق محفوظ است",
+  },
+  
+  ps: {
+    // Header
+    home: "کور",
+    about: "زموږ په اړه",
+    products: "محصولات",
+    blog: "بلاګ",
+    faq: "عمومي پوښتنې",
+    contact: "اړیکه",
+    
+    // Hero
+    heroTitle: "د شمیران خوراکي توکو شرکت",
+    heroSubtitle: "په افغانستان کې د لوړ کیفیت خوراکي توکو تولیدونکی",
+    heroButton: "زموږ محصولات",
+    
+    // About
+    aboutTitle: "زموږ په اړه",
+    aboutDescription: "د هرات منش اکرمی خوراکي توکو شرکت په ویاړ سره د شمیران برانډ لاندې د لوړ کیفیت خوراکي توکي تولیدوي. موږ د غوره خامو موادو او عصري ټکنالوژۍ په کارولو سره، صحي او خوندور محصولات مصرف کوونکو ته وړاندې کوو.",
+    ourMission: "زموږ ماموریت",
+    missionText: "د افغان کورنیو لپاره د لوړ کیفیت او صحي خوراکي توکو تولید",
+    ourVision: "زموږ لید",
+    visionText: "په افغانستان کې د نړیوالو معیارونو سره د خوراکي صنعت مخکښ",
+    ourValues: "زموږ ارزښتونه",
+    valuesText: "کیفیت، روغتیا، باور او د پیرودونکو رضایت",
+    
+    // Products
+    productsTitle: "زموږ محصولات",
+    productsSubtitle: "د خوندور او لوړ کیفیت محصولاتو تنوع",
+    shemiranPillow: "د شمیران بالښت",
+    shemiranDesc: "په مختلفو خوندونو کې خوندور بالښتونه",
+    cakes: "کیکونه",
+    cakesDesc: "تازه او خوندور کیکونو ډولونه",
+    biscuits: "بسکټونه",
+    biscuitsDesc: "کرکره او خوندور بسکټونه",
+    viewMore: "نور وګورئ",
+    
+    // Product of the Month
+    productOfTheMonth: "زموږ غوره محصول",
+    featuredProduct: "د شکو بالښت 30 ګرامه کاکاویی",
+    featuredProductDesc: "د سهار خوندور او مقوي غلات د کاکاو په خوند",
+    moreProducts: "نور محصولات",
+    
+    // FAQ
+    faqTitle: "عمومي پوښتنې",
+    faqSubtitle: "ستاسو د عامو پوښتنو ځوابونه",
+    faq1Q: "د شمیران محصولات له کومو موادو څخه جوړیږي؟",
+    faq1A: "زموږ ټول محصولات د غوره خامو موادو څخه او د روغتیایی معیارونو له مخې تولیدیږي.",
+    faq2Q: "ایا ستاسو محصولات روغتیایی جواز لري؟",
+    faq2A: "هو، زموږ ټول محصولات د افغانستان د عامې روغتیا وزارت له خوا اړین جوازونه لري.",
+    faq3Q: "څنګه کولای شم ستاسو محصولات واخلم؟",
+    faq3A: "زموږ محصولات په ټول افغانستان کې په پلورنځیو کې شته. د نورو معلوماتو لپاره له موږ سره اړیکه ونیسئ.",
+    faq4Q: "ایا د لوی سفارش امکان شته؟",
+    faq4A: "هو، د لویو سفارشونو لپاره مهرباني وکړئ زموږ د پلور برخې سره اړیکه ونیسئ.",
+    
+    // Blog
+    blogTitle: "بلاګ او مقالې",
+    blogSubtitle: "وروستي خبرونه او د تغذیې مقالې",
+    readMore: "نور ولولئ",
+    article1Title: "د ماشومانو لپاره د صحي تغذیې ګټې",
+    article1Excerpt: "په ماشومتوب کې مناسب تغذیه د ماشومانو په وده او پرمختګ کې مهم رول لوبوي...",
+    article2Title: "د صحي خوراکي توکو انتخاب لارښود",
+    article2Excerpt: "څنګه د خپلې کورنۍ لپاره صحي او مغذي خوراکي توکي وټاکو...",
+    article3Title: "په خوراکي صنایعو کې نوښتونه",
+    article3Excerpt: "د خوراکي توکو د تولید د نوي ټکنالوژۍ سره پیژندنه...",
+    
+    // Contact
+    contactTitle: "اړیکه",
+    contactSubtitle: "موږ ستاسو د نظرونو ته منتظر یو",
+    phone: "تلیفون",
+    whatsapp: "واټساپ",
+    address: "پته",
+    addressText: "هرات، افغانستان",
+    followUs: "موږ تعقیب کړئ",
+    sendMessage: "پیغام واستوئ",
+    yourName: "ستاسو نوم",
+    yourEmail: "ستاسو ایمیل",
+    yourMessage: "ستاسو پیغام",
+    send: "واستوئ",
+    
+    // Footer
+    quickLinks: "چټک لینکونه",
+    socialMedia: "ټولنیز رسنۍ",
+    allRightsReserved: "ټول حقونه خوندي دي",
+    companyIntro: "د شرکت پیژندنه",
+    companyDescription: "د هرات منش اکرمی خوراکي توکو شرکت یو مخکښ شرکت دی چې د لوړ کیفیت خوراکي توکو په تولید او توزیع کې فعالیت کوي. دا شرکت په ۱۴۰۲ کال کې تاسیس شوی او په خوږ هرات کې یې خپل فعالیت پیل کړی. او د افغانستان د خوراکي توکو تولیدي شرکتونو په توګه پیژندل کیږي",
+    productOfNation: "د وطن محصول د وطن ویاړ",
+    contactUs: "اړیکه",
+    heratAddress: "هرات د بهزاد سړک د خراسان کوڅه",
+    workingHours: "د کار ساعتونه",
+    saturdayToThursday: "شنبه - پنجشنبه",
+    friday: "جمعه",
+    closed: "تعطیل",
+    workingHoursTime: "۰۸:۰۰ څخه تر ۱۸:۰۰",
+    copyright: "© ۲۰۲۵ د شمیران خوراکي توکو شرکت - ټول حقونه خوندي دي",
+  },
+  
+  en: {
+    // Header
+    home: "Home",
+    about: "About Us",
+    products: "Products",
+    blog: "Blog",
+    faq: "FAQ",
+    contact: "Contact",
+    
+    // Hero
+    heroTitle: "Shemiran Food Industries",
+    heroSubtitle: "Producer of the highest quality food products in Afghanistan",
+    heroButton: "Our Products",
+    
+    // About
+    aboutTitle: "About Us",
+    aboutDescription: "Herat Manesh Akrami Food Industries proudly produces high-quality food products under the Shemiran brand. We deliver healthy and delicious products to consumers using the finest raw materials and modern technology.",
+    ourMission: "Our Mission",
+    missionText: "Producing high-quality and healthy food products for Afghan families",
+    ourVision: "Our Vision",
+    visionText: "Leading Afghanistan's food industry with international standards",
+    ourValues: "Our Values",
+    valuesText: "Quality, Health, Trust, and Customer Satisfaction",
+    
+    // Products
+    productsTitle: "Our Products",
+    productsSubtitle: "A variety of delicious and quality products",
+    shemiranPillow: "Shemiran Pillow",
+    shemiranDesc: "Delicious pillows with various flavors",
+    cakes: "Cakes",
+    cakesDesc: "Various fresh and delicious cakes",
+    biscuits: "Biscuits",
+    biscuitsDesc: "Crispy and delicious biscuits",
+    viewMore: "View More",
+    
+    // Product of the Month
+    productOfTheMonth: "Our Featured Product",
+    featuredProduct: "Choco Pillow 30g Cocoa",
+    featuredProductDesc: "Delicious and nutritious breakfast cereal with cocoa flavor",
+    moreProducts: "More Products",
+    
+    // FAQ
+    faqTitle: "Frequently Asked Questions",
+    faqSubtitle: "Answers to your common questions",
+    faq1Q: "What are Shemiran products made from?",
+    faq1A: "All our products are manufactured using the finest raw materials and according to health standards.",
+    faq2Q: "Are your products health certified?",
+    faq2A: "Yes, all our products have the necessary licenses from Afghanistan's Ministry of Public Health.",
+    faq3Q: "How can I purchase your products?",
+    faq3A: "Our products are available in stores throughout Afghanistan. For more information, contact us.",
+    faq4Q: "Is bulk ordering available?",
+    faq4A: "Yes, for bulk orders please contact our sales department.",
+    
+    // Blog
+    blogTitle: "Blog & Articles",
+    blogSubtitle: "Latest news and nutrition articles",
+    readMore: "Read More",
+    article1Title: "Benefits of Healthy Nutrition for Children",
+    article1Excerpt: "Proper nutrition during childhood plays an important role in children's growth and development...",
+    article2Title: "Guide to Choosing Healthy Snacks",
+    article2Excerpt: "How to choose healthy and nutritious snacks for your family...",
+    article3Title: "Innovation in Food Industries",
+    article3Excerpt: "Introduction to the latest food production technologies...",
+    
+    // Contact
+    contactTitle: "Contact Us",
+    contactSubtitle: "We look forward to hearing from you",
+    phone: "Phone",
+    whatsapp: "WhatsApp",
+    address: "Address",
+    addressText: "Herat, Afghanistan",
+    followUs: "Follow Us",
+    sendMessage: "Send Message",
+    yourName: "Your Name",
+    yourEmail: "Your Email",
+    yourMessage: "Your Message",
+    send: "Send",
+    
+    // Footer
+    quickLinks: "Quick Links",
+    socialMedia: "Social Media",
+    allRightsReserved: "All rights reserved",
+    companyIntro: "Company Introduction",
+    companyDescription: "Herat Manesh Akrami Food Industries is a leading company in the production and distribution of high-quality food products. The company was established in 2023 and began its operations in the sweet city of ancient Herat. It is recognized as one of the food production companies in Afghanistan.",
+    productOfNation: "Product of the Nation, Pride of the Nation",
+    contactUs: "Contact Us",
+    heratAddress: "Herat, Behzad Road, Khorasan Street",
+    workingHours: "Working Hours",
+    saturdayToThursday: "Saturday - Thursday",
+    friday: "Friday",
+    closed: "Closed",
+    workingHoursTime: "08:00 - 18:00",
+    copyright: "© 2025 Shemiran Food Industries - All rights reserved",
+  }
+};
