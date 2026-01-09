@@ -61,7 +61,7 @@ const Blog = () => {
               <article
                 className="group bg-white/20 backdrop-blur-sm rounded-2xl overflow-hidden hover:bg-white/30 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
               >
-                <div className="relative h-72 overflow-hidden">
+                <div className="relative h-96 overflow-hidden">
                   <img
                     src={post.image}
                     alt={t(post.title)}
